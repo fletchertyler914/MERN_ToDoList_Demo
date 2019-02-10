@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+  width: 25% !important;
+}
+
+.form > div {
+  width: 100% !important;
+}
+
+input {
+  text-align: center !important;
+  color: #fff !important;
+}
+
+.toDoInput::after {
+  border-bottom-color: steelblue !important;
+}
+
+.toDoItem {
+  margin-top: 5px;
+}
+
+.checkBox > span {
+  fill: steelblue !important;
+}
+
+.deleteButton { 
+  margin-top: 10px;
+  float: right;
+}
+
+.submitButton {
+  background-color: #fff !important;
+  border: 2px solid steelblue !important;
+  margin-top: 5% !important;
+}
+
+.listContainer {
+  width: 25%;
+  height: 100%;
+  margin: 5% auto 0 auto;
+}
+
+.listGroupItem {
+  background-color: steelblue !important;
+  margin-bottom: 15px !important;
+  text-align: left !important;
+  font-size: calc(10px + 1.2vmin);
+}
+
+.header {
+  margin: 5% auto 2% auto;
+}
